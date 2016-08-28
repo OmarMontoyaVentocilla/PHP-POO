@@ -1,6 +1,7 @@
 <?php 
 require_once 'libro.php';
-$libro1 = new Libro(1,"título",20,"Omar", "Montoya Ventocilla",440);
+$libro1 = new Libro(1,"título",40,"Omar", "Montoya Ventocilla",440);
+$libro1->setPrecio(80);
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -16,7 +17,7 @@ $libro1 = new Libro(1,"título",20,"Omar", "Montoya Ventocilla",440);
 for ($i=1;$i<=10;$i++){
 if($i%2==0){
 ?>
-<div style="background: red;color: white;">
+<div style="background:lightblue;color: white;">
 <?php echo $libro1->getResumen().'<br><br>';?>	
 </div>
 <?php
