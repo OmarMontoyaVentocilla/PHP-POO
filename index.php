@@ -1,7 +1,7 @@
 <?php 
-require_once 'libro.php';
-$libro1 = new Libro(1,"título",40,"Omar", "Montoya Ventocilla",440);
-$libro1->setPrecio(80);
+//require_once 'libro.php';
+//$libro1 = new Libro(1,"título",40,"Omar", "Montoya Ventocilla",440);
+//$libro1->setPrecio(80);
 ?>
 <!DOCTYPE html>
 <html lang="es">
