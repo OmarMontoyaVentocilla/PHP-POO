@@ -26,6 +26,4 @@ require_once 'producto.php';
 
  } 
 
-
-
 ?>

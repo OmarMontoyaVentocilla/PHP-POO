@@ -58,12 +58,4 @@ public function __construct($id, $titulo, $precio, $nombreAutor, $apellidosAutor
 
 }
 
-
-
-
-
-
-
-
-
 ?>

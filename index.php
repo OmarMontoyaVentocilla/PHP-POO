@@ -23,10 +23,7 @@ if($i%2==0){
 }else{
 echo $libro1->getResumen().'<br><br>';	
 }
-
- 
 }
- 
 ?>
 </body>
 </html>
